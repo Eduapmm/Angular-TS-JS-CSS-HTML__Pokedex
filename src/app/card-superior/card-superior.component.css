@@ -1,0 +1,47 @@
+
+.topo{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pokemon .number {
+    color: #000;
+    opacity: .3;
+    text-align: right;
+    flex-direction: row;
+    display: flex;
+}
+
+.pokemon .detail .types .type{
+    background-color: #61e1ca;
+    color: #fff;
+    margin: 4.85px;
+    padding: 0.4em 0.5rem;
+    font-size: x-small;
+    border-radius: 1em;
+}
+.pokemon .detail img{
+    height: 6em;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    z-index: 1;
+    width: 10em;
+    padding: -2em
+}
+.pokemon .detail{
+    display: flex;
+    flex-direction: column;
+    height: 167px
+}
+
+.pokemon .detail .types {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    flex-direction: row;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}

@@ -3,15 +3,15 @@
     box-sizing: border-box;
     font-size: 24px;
 }
-body{
-    margin: 0;
-    background: beige;
-}
 .content {
     padding: 0rem;
     width: 400px;
     color: #000;
-    
+    display: flex;
+}
+body {
+    margin: 0;
+    background: beige;
 }
 .pokemons{
     display: grid;
@@ -19,6 +19,7 @@ body{
     list-style: none;
     padding: 0;
     margin: 0;
+    
 }
 
 .pokemon{
@@ -32,140 +33,7 @@ body{
     width: 300px;
     height: 625px;
 }
-.h1 {
-    flex-direction: row;
-    font-weight: bold;
-    font-size: 0.91em;
-    margin: 0.83em;
-    display: flex;
-    opacity: 120%;
-    color: #000;
-}
-.grade{
-    display: flex;
-    flex-direction: column;
-    font-size: smaller;
-    height: 13em;
-}
-.grade2{
-    display: flex;
-    flex-direction: column;
-    font-size: smaller;
-    height: 13em;
-}
-.h2 {
-    flex-direction: row;
-    font-weight: bold;
-    font-size: 0.91em;
-    margin: 0.83em;
-    display: flex;
-    opacity: 40%;
-    color: #000;
-}
-.h3 {
-    flex-direction: row;
-    font-weight: bold;
-    font-size: 1em;
-    margin: 0.83em;
-    display: flex;
-    opacity: 90%;
-    color: #000;
-}
-.frase{
-    FONT-WEIGHT: bold;
-    font-size: 1em;
-    margin: 1em;
-    display: flex;
-    justify-content: space-between;
-    opacity: 60%;
-    color: #000;
-    height: 1em;
-}
-.frase2{
-    FONT-WEIGHT: bold;
-    font-size: 1em;
-    margin: 1em;
-    display: flex;
-    justify-content: left;    
-    color: #000;
-    height: 1em;
-}
-.frase3{
-    FONT-WEIGHT: bold;
-    font-size: 1em;
-    margin: 1em;
-    display: flex;
-    justify-content: left;    
-    color: #000;
-    height: 1em;
-}
-.frase4{
-    FONT-WEIGHT: bold;
-    font-size: 1em;
-    margin: 1em;
-    display: flex;
-    justify-content: left;    
-    color: #000;
-    height: 1em;
-}
-.about{
-    font-size: small;
-    font-weight: 20;
-    background: #fff;
-    height: 431px;
-    border-radius: 1rem;
-    color: #fff;
-    width: 21em;
-    padding: 12px;
-    margin: -10.5px;
-} 
-.topo{
-    flex-direction: row;
-    display: flex;
-    justify-content: space-between;
-}
 
-.pokemon .number {
-    color: #000;
-    opacity: .3;
-    text-align: right;
-    flex-direction: row;
-    display: flex;
-}
-
-.pokemon .detail{
-    display: flex;
-    flex-direction: column;
-    height: 167px
-}
-
-.pokemon .detail .types {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    flex-direction: row;
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-}
-
-.pokemon .detail .types .type{
-    background-color: #61e1ca;
-    color: #fff;
-    margin: 4.85px;
-    padding: 0.4em 0.5rem;
-    font-size: x-small;
-    border-radius: 1em;
-}
-.pokemon .detail img{
-    height: 6em;
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    z-index: 1;
-    width: 10em;
-    padding: -2em
-}
 
 @media screen and (min-width: 992px) {
     .content {

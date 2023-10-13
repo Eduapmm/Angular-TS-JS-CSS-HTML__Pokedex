@@ -1,0 +1,94 @@
+
+.grade{
+    display: flex;
+    flex-direction: column;
+    font-size: smaller;
+    height: 15em;
+}
+.grade2{
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    height: 13em;
+    display: flex;
+    margin-top: -18px;
+}
+.about{
+    font-size: small;
+    font-weight: 20;
+    background: #fff;
+    height: 409px;
+    border-radius: 1rem;
+    color: #fff;
+    width: 283px;
+    padding: 12px;
+    margin: 219.5px;
+    margin-left: -303px;
+    margin-right: 356em;
+} 
+.h1 {
+    flex-direction: row;
+    font-weight: bold;
+    font-size: 0.91em;
+    margin: 0.83em;
+    display: flex;
+    opacity: 120%;
+    color: #000;
+}
+.h2 {
+    flex-direction: row;
+    font-weight: bold;
+    font-size: 0.91em;
+    margin: 0.83em;
+    display: flex;
+    opacity: 40%;
+    color: #000;
+}
+.h3 {
+    flex-direction: row;
+    font-weight: bold;
+    font-size: 1em;
+    margin: 0.83em;
+    display: flex;
+    opacity: 90%;
+    color: #000;
+    margin-bottom: 2px;
+}
+.frase{
+    FONT-WEIGHT: bold;
+    font-size: 1em;
+    margin: 1em;
+    display: flex;
+    justify-content: space-between;
+    opacity: 60%;
+    color: #000;
+    height: 1em;
+}
+.frase2{
+    FONT-WEIGHT: bold;
+    font-size: 1em;
+    margin: em;
+    display: flex;
+    justify-content: left;    
+    color: #000;
+    height: 1em;
+    flex-direction: row;
+}
+.frase3{
+    FONT-WEIGHT: bold;
+    font-size: 1em;
+    margin: 1em;
+    display: flex;
+    justify-content: left;    
+    color: #000;
+    height: 1em;
+}
+.frase4{
+    FONT-WEIGHT: bold;
+    font-size: 1em;
+    margin: 1em;
+    display: flex;
+    justify-content: left;    
+    color: #000;
+    height: 1em;
+}
